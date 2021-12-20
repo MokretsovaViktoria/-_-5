@@ -25,7 +25,7 @@
     <Compile Include="geometry\planimetry.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="geometry\stereomerty.py">
+    <Compile Include="geometry\stereometry.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="geometry\__init__.py">
