@@ -1,5 +1,7 @@
-from geometry import  *
-a = planimetry.Rectangle(3, 4)
-b = stereometry.Ball(5)
-print(a.square())
- 
+from Module import*
+
+r1 = Room(6,2, 2.7)
+print(r1.calcFullSquare())
+r1.addWd(1,1)
+r1.addWd(1,1)
+r1.addWd(1,2)

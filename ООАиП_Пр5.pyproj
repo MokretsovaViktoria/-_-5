@@ -5,7 +5,7 @@
     <ProjectGuid>04182601-08a0-415f-99c8-4bb09f4497a6</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>ООАиП_5-2.py</StartupFile>
+    <StartupFile>ООАиП_5-1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,18 +31,26 @@
     <Compile Include="geometry\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ООАиП_5-2.py">
+    <Compile Include="ООАиП_5-1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ООАиП_Пр5.py" />
+    <Compile Include="Module\calk.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ООАиП_5-2.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\..\OneDrive\Рабочий стол\Учёба\Задание 5-1.txt">
       <Link>Задание 5-1.txt</Link>
     </Content>
+    <Content Include="Задание 5-2.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="geometry\" />
+    <Folder Include="Module\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
