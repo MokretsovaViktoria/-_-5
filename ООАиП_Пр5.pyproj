@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>04182601-08a0-415f-99c8-4bb09f4497a6</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>ООиИП_Пр5.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>ООАиП_5-2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ООиИП_Пр5</Name>
+    <Name>ООАиП_Пр5</Name>
     <RootNamespace>ООиИП_Пр5</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,12 +22,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ООиИП_Пр5.py" />
+    <Compile Include="geometry\planimetry.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="geometry\stereomerty.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="geometry\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ООАиП_5-2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ООАиП_Пр5.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\..\OneDrive\Рабочий стол\Учёба\Задание 5-1.txt">
       <Link>Задание 5-1.txt</Link>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="geometry\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
